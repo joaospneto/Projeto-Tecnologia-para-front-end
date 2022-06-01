@@ -1,0 +1,144 @@
+<!DOCTYPE html> 
+ <html lang="pt-br"> 
+ <head> 
+   <meta charset="UTF-8"> 
+   <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   <link rel="stylesheet" href="QPS.css"/> 
+   <title>Projeto Queimaduras</title> 
+  
+ </head> 
+ <body> 
+  
+     <section class="module parallax parallax-1"> 
+         <div id="content"> 
+         <h1 class="estilo-escrita">Queimaduras</h1> 
+         </div> 
+     </section> 
+  
+ <!--Cards Queimaduras--> 
+     <main class="cards-queimaduras"> 
+         <section class="tipo-queimadura"> 
+             <h3 class="titulo-tipo-queimadura">Queimadura de Primeiro Grau</h3> 
+             <span>Nas queimaduras indentificadas como de primeiro grau, lave com agua corrente na temperatura ambiente, afim de causar um resfriamento no local.</span> 
+             <button>Saber Mais</button> 
+         </section> 
+         <section class="tipo-queimadura"> 
+             <h3 class="titulo-tipo-queimadura">Queimadura de Segundo Grau</h3> 
+             <span>Para queimaduras identificadas como de segundo grau, lavar o local lesado e protegê-lo com compressa de gaze, ou pano limpo umedecido, ou papel alumínio.</span> 
+             <button>Saber Mais</button> 
+         </section> 
+         <section class="tipo-queimadura"> 
+             <h3 class="titulo-tipo-queimadura">Queimadura de Terceiro Grau </h3> 
+             <span>Para queimaduras identificadas como de terceiro grau, lave e proteja o local da lesão, se possível com papel alumínio para separa-la efetivamente do ambiente externo, diminuir a perda de calor e evitar microorganismos</span> 
+             <button>Saber Mais</button> 
+         </section> 
+     </main> 
+  
+ <!--Primeiros Socorros--> 
+     <main> 
+         <section class="module parallax parallax-2"> 
+             <div id="content"> 
+             <h1 class="estilo-escrita2">Primeiros Socorros</h1> 
+             </div> 
+          </section> 
+  
+       <section class="module content"> 
+         <div class="container"> 
+             <div id="content"> 
+           <h2>Queimaduras - Primeiros Socorros</h2>    
+         </div>              
+         </div> 
+       </section> 
+     </main> 
+  
+ <!--Começo dos passos--> 
+     <div class="titulo-queimadura"> 
+         <div class="lista-item"> 
+             <input class="input-check" id="check-titulo-1"  type="checkbox"> 
+             <div class="g1"> 
+                 <label for="check-titulo-1"> 
+                     <h2 class="titulo">Primeiro Passo</h2> 
+                 </label> 
+                 <p class="conteudo">✔️ Afaste o acidentado da origem da queimadura</p> 
+             </div> 
+         </div> 
+  
+         <div class="lista-item"> 
+             <input class="input-check" id="check-titulo-2" type="checkbox"> 
+             <div class="g1"> 
+                 <label for="check-titulo-2"> 
+                     <h2 class="titulo">Segundo Passo</h2> 
+                 </label> 
+                 <p class="conteudo"> ✔️ Remova, se possivel, joias e vestes do acidentado para evitar constrição com o desenvolvimento do edema.</p> 
+                 <p class="conteudo">❌ Não tente retirar roupas que tenham ficado grudadas no corpo do acidentado, nem mesmo objetos estranhos que tenham ficado na queimadura após a lavagem inicial.</p> 
+             </div> 
+         </div> 
+  
+         <div class="lista-item"> 
+             <input class="input-check" id="check-titulo-3" type="checkbox"> 
+             <div class="g1"> 
+                 <label for="check-titulo-3"> 
+                     <h2 class="titulo">Terceiro Passo</h2> 
+                 </label> 
+                 <p class="conteudo">❌ Nunca aplique gelo no local, pois diminui a irrigação sanguínea, favorecendo a uma queimadura por resfriamento excessivo.</p> 
+             </div> 
+         </div> 
+         <div class="lista-item"> 
+             <input class="input-check" id="check-titulo-4" type="checkbox"> 
+             <div class="g1"> 
+                 <label for="check-titulo-4"> 
+                     <h2 class="titulo">Quarto Passo</h2> 
+                 </label> 
+                 <p class="conteudo"> ✔️ Ofereça água ao acidentado, porem lentamente.</p> 
+                 <p class="conteudo">❌ Se o paciente estive inconciente, não ofereça água.</p> 
+             </div> 
+         </div> 
+         <div class="lista-item"> 
+             <input class="input-check" id="check-titulo-5" type="checkbox"> 
+             <div class="g1"> 
+                 <label for="check-titulo-5"> 
+                     <h2 class="titulo">Quinto Passo</h2> 
+                 </label> 
+                 <p class="conteudo"> ✔️ Fique atento a todos os graus de queimaduras, manter o local lesado limpo e protegido contra infecções.</p> 
+             </div> 
+         </div> 
+         <div class="lista-item"> 
+             <input class="input-check" id="check-titulo-6" type="checkbox"> 
+             <div class="g1"> 
+                 <label for="check-titulo-6"> 
+                     <h2 class="titulo">Sexto Passo</h2> 
+                 </label> 
+                 <p class="conteudo">❌ Nunca fure ou estoure as bolhas que possam vim a aparecer.</p> 
+                 <p class="conteudo">❌ Nunca aplique pomadas, cremes ou coisas do tipo, pois a sua retirada pode causar um dano ainda maior.</p> 
+             </div> 
+         </div> 
+         <div class="lista-item"> 
+             <input class="input-check" id="check-titulo-7" type="checkbox"> 
+             <div class="g1"> 
+                 <label for="check-titulo-7"> 
+                     <h2 class="titulo">Sétimo Passo</h2> 
+                 </label> 
+                 <p class="conteudo"> ✔️ Garanta o transporte do acidentado para um local aquecido no caso de queimadura por frio ou geladuras, aqueça as partes congeladas com agua quente, mas não fervente, realizando massagens delicadas para ativar a circulação nas áreas proximas a queimadura, ofereça bebidas quentes, mas não alcoólicas e peça para ele movimentar os pés e as mãos .</p> 
+             </div> 
+         </div> 
+         <div class="lista-item"> 
+             <input class="input-check" id="check-titulo-8" type="checkbox"> 
+             <div class="g1"> 
+                 <label for="check-titulo-8"> 
+                     <h2 class="titulo">Oitavo Passo</h2> 
+                 </label> 
+                 <p class="conteudo"> ✔️ Encaminhe a vítima ao atendimento especializado.</p> 
+                  
+             </div> 
+         </div> 
+     </div> 
+  
+ <!--Copyright--> 
+     <div class="footer_copy"> 
+         Copyright- Todos os dirietos reservados 
+         <br> 
+         Grupo 5 
+     </div> 
+  
+ </body>
